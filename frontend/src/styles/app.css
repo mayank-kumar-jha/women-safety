@@ -1,0 +1,11 @@
+:root { color-scheme: dark; font-family: Inter, Arial, sans-serif; }
+body { margin: 0; background: #0e1117; color: #f8f9fb; }
+.layout { display: grid; gap: 12px; max-width: 1000px; margin: 0 auto; padding: 16px; }
+.card { background: #171b24; border: 1px solid #2e3340; border-radius: 12px; padding: 12px; display: grid; gap: 8px; }
+input, button { border-radius: 8px; border: 1px solid #41485a; padding: 10px; background: #10141d; color: white; }
+button { cursor: pointer; background: #2d5bd1; }
+.safe { color: #53d769; } .moderate { color: #f9cc3b; } .risk { color: #ff453a; }
+.sos { background: #aa1010; } .sos.active { background: #ff2d55; }
+.map-placeholder { min-height: 180px; }
+.selected { outline: 2px solid #2d5bd1; }
+@media (max-width: 768px) { .layout { padding: 10px; } }
